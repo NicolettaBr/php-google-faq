@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    height: 100%;
+}
+
+/*HEADER*/
+.container-title{
+    height: 50px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.container-title img{
+    padding: 10px 20px 10px 0;
+}
+
+.menu{
+    list-style-type: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.menu li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+/*MAIN*/
+.container-main{
+    /*test*/
+    background-color: lightcoral;
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.container-main p{
+    margin-top: 15px;
+}
