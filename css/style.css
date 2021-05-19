@@ -27,13 +27,22 @@ img{
 .menu li{
     display: inline-block;
     margin-right: 20px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+
+li:first-child {
+    margin-left: 5px;
+}
+
+li:hover{
+    color: blue;
+    border-bottom: 2px solid blue;
 }
 
 /*MAIN*/
 .container-main{
-    /*test*/
-    background-color: lightcoral;
     width: 60%;
     margin: auto;
     padding-top: 50px;
@@ -42,4 +51,15 @@ img{
 
 .container-main p{
     margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.container-main a{
+    text-decoration: none;
+}
+br{
+    content: "";
+    margin: 20px;
+    display: block;
+    font-size: 24%;
 }
